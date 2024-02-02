@@ -1,0 +1,24 @@
+.loginSection {
+    padding-top: 20px;
+}
+
+.container {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 300px;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgb(58, 80, 99);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.formLabel {
+    letter-spacing: 0.06em;
+}
+

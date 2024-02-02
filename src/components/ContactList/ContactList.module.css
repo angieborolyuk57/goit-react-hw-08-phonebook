@@ -1,0 +1,52 @@
+.container {
+    width: 300px;
+    padding: 20px 15px;
+    margin: 20px auto;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contactList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.listItem {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.listItemBtn {
+    padding: 1px 8px;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #38598b;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+    transition: background-color 500ms ease-in-out, color 500ms ease-in-out, box-shadow 500ms ease-in-out;
+}
+
+.listItemBtn:hover {
+    background-color: #113f67;
+    color: #000000;
+    box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.contactsEmptyText {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.04em;
+}

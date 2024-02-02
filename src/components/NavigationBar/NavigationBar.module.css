@@ -1,0 +1,17 @@
+.navBar {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.04em;
+}
+
+.navBarBtn {
+    width: 75px;
+}
+
+.navBarText {
+    font-weight: 600;
+    color: #fff;
+}
+
+.userTextColor {
+    color: #38598b;
+}

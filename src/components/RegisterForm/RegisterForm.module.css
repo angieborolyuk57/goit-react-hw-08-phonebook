@@ -1,0 +1,22 @@
+.registerSection {
+    padding-top: 20px;
+}
+
+.container {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 300px;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #a2a8d3;
+    color: rgb(255, 255, 255);
+}
+
+.formLabel {
+    letter-spacing: 0.06em;
+}
